@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:400px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.progress{
+    background:#ddd;
+    height:10px;
+    border-radius:5px;
+    margin:10px 0;
+}
+
+#barra{
+    height:10px;
+    background:#28a745;
+    width:0%;
+    border-radius:5px;
+}
+
+.correct{ background:#28a745 !important; color:white; }
+.incorrect{ background:#dc3545 !important; color:white; }
+
+.error{ color:red; }
+.ok{ color:green; }
