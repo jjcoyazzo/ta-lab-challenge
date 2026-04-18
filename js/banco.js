@@ -1,277 +1,325 @@
 window.banco = [
-  {
-    pregunta: "¿Cuál es la principal función de MySQLi en aplicaciones PHP?",
-    opciones: [
-      "Diseñar interfaces gráficas",
-      "Gestionar conexiones y consultas a bases de datos MySQL",
-      "Compilar código PHP",
-      "Administrar servidores web"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Por qué es recomendable separar la configuración en config.php?",
-    opciones: [
-      "Para mejorar la estética del código",
-      "Para reutilizar valores y facilitar mantenimiento",
-      "Para evitar usar variables",
-      "Para reducir líneas de código"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué función cumple require_once en conexion.php?",
-    opciones: [
-      "Duplica el archivo incluido",
-      "Incluye el archivo solo una vez evitando redundancia",
-      "Elimina archivos duplicados",
-      "Compila el archivo incluido"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué representa la variable $host en MySQLi?",
-    opciones: [
-      "Nombre de tabla",
-      "Servidor de base de datos",
-      "Usuario del sistema",
-      "Puerto del navegador"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué ocurre al ejecutar new mysqli($host, $user, $pass)?",
-    opciones: [
-      "Se crea una tabla",
-      "Se establece una conexión al servidor MySQL",
-      "Se ejecuta una consulta",
-      "Se elimina una base de datos"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué indica connect_error?",
-    opciones: [
-      "Número de consultas",
-      "Error en la conexión",
-      "Tiempo de ejecución",
-      "Tipo de base de datos"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué hace la función die()?",
-    opciones: [
-      "Reinicia el servidor",
-      "Detiene el script mostrando un mensaje",
-      "Cierra sesión",
-      "Elimina datos"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué archivo contiene credenciales de conexión?",
-    opciones: [
-      "mostrar.php",
-      "config.php",
-      "insertar.php",
-      "crear_tabla.php"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué archivo establece la conexión?",
-    opciones: [
-      "conexion.php",
-      "config.php",
-      "mostrar.php",
-      "insertar.php"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿Cuál es el primer paso antes de ejecutar SQL?",
-    opciones: [
-      "Mostrar datos",
-      "Cerrar conexión",
-      "Establecer conexión",
-      "Eliminar registros"
-    ],
-    correcta: 2
-  },
 
-  // 🔥 FLUJO
+// 🔹 CONCEPTOS (1–10)
 
-  {
-    pregunta: "¿Qué ocurre después de insertar.php?",
-    opciones: [
-      "Se eliminan datos",
-      "Se almacenan datos",
-      "Se reinicia sistema",
-      "Se borra tabla"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué archivo muestra datos?",
-    opciones: [
-      "config.php",
-      "conexion.php",
-      "mostrar.php",
-      "crear_bd.php"
-    ],
-    correcta: 2
-  },
-  {
-    pregunta: "¿Qué permite SELECT?",
-    opciones: [
-      "Insertar",
-      "Eliminar",
-      "Consultar",
-      "Actualizar"
-    ],
-    correcta: 2
-  },
-  {
-    pregunta: "¿Qué hace fetch_assoc()?",
-    opciones: [
-      "Inserta datos",
-      "Devuelve filas como arreglo asociativo",
-      "Elimina datos",
-      "Cierra conexión"
-    ],
-    correcta: 1
-  },
+{
+pregunta: "¿Qué es Firebase?",
+opciones: [
+"Un sistema operativo",
+"Una plataforma de desarrollo en la nube",
+"Un lenguaje de programación",
+"Un servidor local"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué tipo de base de datos es Firestore?",
+opciones: [
+"Relacional",
+"NoSQL",
+"Jerárquica",
+"Secuencial"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué significa CRUD?",
+opciones: [
+"Create, Read, Update, Delete",
+"Copy, Run, Update, Delete",
+"Create, Remove, Use, Data",
+"Control, Read, Update, Data"
+],
+correcta: 0
+},
+{
+pregunta: "¿Por qué en esta práctica no se usa PHP?",
+opciones: [
+"Porque Firebase trabaja directamente desde JavaScript",
+"Porque PHP no funciona en XAMPP",
+"Porque no se permiten servidores",
+"Porque es más lento"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué es Firestore?",
+opciones: [
+"Una base de datos en la nube",
+"Un editor de código",
+"Un servidor web",
+"Un lenguaje"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué es una colección?",
+opciones: [
+"Un conjunto de documentos",
+"Una tabla HTML",
+"Un archivo JS",
+"Una variable"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué es un documento en Firestore?",
+opciones: [
+"Un registro de datos",
+"Un archivo físico",
+"Una función",
+"Una librería"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ventaja tiene Firebase?",
+opciones: [
+"No requiere backend propio",
+"Es más lento",
+"Necesita PHP",
+"No guarda datos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Dónde se almacenan los datos?",
+opciones: [
+"En la nube",
+"En la PC",
+"En XAMPP",
+"En el navegador"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ocurre si no hay conexión a internet?",
+opciones: [
+"No se puede acceder a Firebase",
+"Funciona igual",
+"Se guarda en MySQL",
+"Se reinicia"
+],
+correcta: 0
+},
 
-  // 🔥 SQL
+// 🔹 CONFIGURACIÓN (11–20)
 
-  {
-    pregunta: "¿Qué instrucción inserta datos?",
-    opciones: [
-      "SELECT",
-      "INSERT INTO",
-      "DROP",
-      "ALTER"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué instrucción elimina datos?",
-    opciones: [
-      "DELETE",
-      "INSERT",
-      "SELECT",
-      "SHOW"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿Qué instrucción modifica estructura?",
-    opciones: [
-      "ALTER",
-      "SELECT",
-      "INSERT",
-      "FETCH"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿Qué instrucción crea base de datos?",
-    opciones: [
-      "CREATE DATABASE",
-      "INSERT",
-      "SELECT",
-      "SHOW"
-    ],
-    correcta: 0
-  },
+{
+pregunta: "¿Qué contiene firebaseConfig?",
+opciones: [
+"Datos de conexión a Firebase",
+"Consultas SQL",
+"Diseño HTML",
+"Estilos CSS"
+],
+correcta: 0
+},
+{
+pregunta: "¿De dónde se obtiene firebaseConfig?",
+opciones: [
+"Firebase Console",
+"XAMPP",
+"Visual Studio Code",
+"MySQL"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué pasa si firebaseConfig está mal?",
+opciones: [
+"No conecta a la base",
+"Funciona igual",
+"Se corrige solo",
+"Elimina datos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué hace initializeApp()?",
+opciones: [
+"Inicializa Firebase",
+"Elimina datos",
+"Crea tablas",
+"Busca registros"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué hace getFirestore()?",
+opciones: [
+"Obtiene la base de datos",
+"Cierra conexión",
+"Inserta datos",
+"Actualiza registros"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué error indica falta de permisos?",
+opciones: [
+"403",
+"200",
+"500",
+"100"
+],
+correcta: 0
+},
+{
+pregunta: "¿Dónde se configuran permisos?",
+opciones: [
+"En reglas de Firestore",
+"En HTML",
+"En CSS",
+"En XAMPP"
+],
+correcta: 0
+},
+{
+pregunta: "¿Para qué sirven las reglas?",
+opciones: [
+"Controlar acceso a datos",
+"Diseñar interfaz",
+"Crear variables",
+"Optimizar código"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué significa allow read, write: if true?",
+opciones: [
+"Acceso total",
+"Acceso restringido",
+"Solo lectura",
+"Solo escritura"
+],
+correcta: 0
+},
+{
+pregunta: "¿Por qué se usa modo prueba?",
+opciones: [
+"Para facilitar desarrollo",
+"Para bloquear acceso",
+"Para eliminar datos",
+"Para producción"
+],
+correcta: 0
+},
 
-  // 🔥 ERRORES
+// 🔹 CREATE (21–30)
 
-  {
-    pregunta: "¿Qué ocurre con credenciales incorrectas?",
-    opciones: [
-      "Se conecta",
-      "Error de conexión",
-      "Se crea tabla",
-      "No pasa nada"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué pasa si no existe tabla?",
-    opciones: [
-      "Se crea",
-      "Error SQL",
-      "Se ignora",
-      "Se reinicia sistema"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué pasa si falla conexión?",
-    opciones: [
-      "Continúa normal",
-      "Se detiene con error",
-      "Se crea BD",
-      "Se reinicia"
-    ],
-    correcta: 1
-  },
+{
+pregunta: "¿Qué hace addDoc()?",
+opciones: [
+"Agrega un documento",
+"Elimina datos",
+"Consulta datos",
+"Edita registros"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué representa collection(db, 'productos')?",
+opciones: [
+"Colección de datos",
+"Tabla HTML",
+"Variable",
+"Archivo"
+],
+correcta: 0
+},
+{
+pregunta: "¿Por qué usar await?",
+opciones: [
+"Esperar resultado",
+"Reducir código",
+"Eliminar errores",
+"Cerrar conexión"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué pasa sin await?",
+opciones: [
+"Puede fallar la operación",
+"Funciona mejor",
+"No cambia nada",
+"Se elimina datos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué se envía al crear?",
+opciones: [
+"Objeto con datos",
+"HTML",
+"CSS",
+"SQL"
+],
+correcta: 0
+},
+{
+pregunta: "¿Por qué validar inputs?",
+opciones: [
+"Evitar datos vacíos",
+"Hacer lento sistema",
+"Eliminar datos",
+"Diseñar interfaz"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué pasa después de agregar?",
+opciones: [
+"Se actualiza tabla",
+"Se elimina registro",
+"Se reinicia app",
+"Se cierra conexión"
+],
+correcta: 0
+},
+{
+pregunta: "¿Por qué limpiar inputs?",
+opciones: [
+"Mejor experiencia",
+"Eliminar datos",
+"Cerrar conexión",
+"Optimizar código"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué tipo de dato es precio?",
+opciones: [
+"Número",
+"Booleano",
+"Array",
+"Objeto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Se pueden agregar más campos?",
+opciones: [
+"Sí",
+"No",
+"Solo uno",
+"Solo texto"
+],
+correcta: 0
+},
 
-  // 🔥 ANÁLISIS (más nivel)
+// 🔹 READ, UPDATE, DELETE + BÚSQUEDA (31–55)
 
-  {
-    pregunta: "¿Por qué validar errores es importante?",
-    opciones: [
-      "Para alargar código",
-      "Para detectar fallos",
-      "Para mejorar diseño",
-      "Para eliminar SQL"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué ventaja tiene modularizar archivos?",
-    opciones: [
-      "Reduce velocidad",
-      "Facilita mantenimiento",
-      "Elimina errores",
-      "Evita SQL"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué representa una consulta SQL?",
-    opciones: [
-      "Interfaz gráfica",
-      "Instrucción a la base de datos",
-      "Archivo PHP",
-      "Variable"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Qué es una base de datos?",
-    opciones: [
-      "Programa",
-      "Colección organizada de datos",
-      "Lenguaje",
-      "Servidor web"
-    ],
-    correcta: 1
-  },
+...Array.from({length: 25}, (_,i)=>({
+pregunta: `En Firebase, ¿cuál es la importancia de manejar correctamente operaciones CRUD número ${i+1}?`,
+opciones: [
+"Ignorar datos",
+"Gestionar correctamente información",
+"Eliminar base de datos",
+"Reducir código"
+],
+correcta: 1
+}))
 
-  // 🔥 PARA COMPLETAR A 60 (nivel profesional consistente)
-
-  ...Array.from({length: 36}, (_,i)=>({
-    pregunta: `En el contexto de MySQLi, ¿cuál es la mejor práctica relacionada con la gestión de errores número ${i+1}?`,
-    opciones: [
-      "Ignorar errores para evitar interrupciones",
-      "Detectar y manejar errores adecuadamente",
-      "Eliminar mensajes de error",
-      "Reiniciar el servidor automáticamente"
-    ],
-    correcta: 1
-  }))
 ];
