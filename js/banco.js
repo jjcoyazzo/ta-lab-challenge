@@ -1,325 +1,328 @@
 window.banco = [
 
-// 🔹 CONCEPTOS (1–10)
+// 🔹 CONCEPTOS GENERALES (1–15)
 
 {
-pregunta: "¿Qué es Firebase?",
+pregunta: "¿Cuál es el objetivo principal del diseño responsive en aplicaciones web móviles?",
 opciones: [
-"Un sistema operativo",
-"Una plataforma de desarrollo en la nube",
+"Reducir el tamaño del código",
+"Adaptar la interfaz a diferentes tamaños de pantalla",
+"Mejorar la velocidad del servidor",
+"Eliminar la necesidad de CSS"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué problema resuelve el diseño responsive en dispositivos móviles?",
+opciones: [
+"El almacenamiento de datos",
+"La visualización incorrecta en diferentes dispositivos",
+"La conexión a bases de datos",
+"La ejecución de scripts"
+],
+correcta: 1
+},
+{
+pregunta: "¿Cuál es una característica clave de una interfaz mobile-first?",
+opciones: [
+"Se diseña primero para pantallas grandes",
+"Se prioriza la experiencia en dispositivos móviles",
+"Se elimina el uso de CSS",
+"Se evita el uso de HTML"
+],
+correcta: 1
+},
+{
+pregunta: "¿Por qué es importante considerar la interacción táctil en móviles?",
+opciones: [
+"Porque reduce el consumo de memoria",
+"Porque los usuarios interactúan con los dedos",
+"Porque elimina errores de servidor",
+"Porque mejora el SEO"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué implica que una aplicación sea 'usable' en móvil?",
+opciones: [
+"Que cargue rápido únicamente",
+"Que sea fácil de usar en pantalla táctil",
+"Que tenga base de datos",
+"Que tenga animaciones"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué es un viewport en diseño web?",
+opciones: [
+"Un tipo de base de datos",
+"El área visible de una página en el dispositivo",
 "Un lenguaje de programación",
-"Un servidor local"
+"Un servidor web"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué tipo de base de datos es Firestore?",
+pregunta: "¿Qué ocurre si no se define el viewport en una página web?",
 opciones: [
-"Relacional",
-"NoSQL",
-"Jerárquica",
-"Secuencial"
+"Se elimina el CSS",
+"La página no carga",
+"No se adapta correctamente a móviles",
+"Se bloquea el servidor"
+],
+correcta: 2
+},
+{
+pregunta: "¿Qué significa que una app tenga propósito en un caso de uso?",
+opciones: [
+"Que tenga muchos colores",
+"Que resuelva una necesidad real",
+"Que use PHP",
+"Que tenga animaciones"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué significa CRUD?",
+pregunta: "¿Qué define un problema real en el contexto de desarrollo?",
 opciones: [
-"Create, Read, Update, Delete",
-"Copy, Run, Update, Delete",
-"Create, Remove, Use, Data",
-"Control, Read, Update, Data"
+"Una idea creativa",
+"Una necesidad existente en usuarios reales",
+"Un error de código",
+"Un diseño complejo"
 ],
-correcta: 0
+correcta: 1
 },
 {
-pregunta: "¿Por qué en esta práctica no se usa PHP?",
+pregunta: "¿Qué elemento relaciona al usuario con la solución?",
 opciones: [
-"Porque Firebase trabaja directamente desde JavaScript",
-"Porque PHP no funciona en XAMPP",
-"Porque no se permiten servidores",
-"Porque es más lento"
+"El servidor",
+"El caso de uso",
+"El CSS",
+"El navegador"
 ],
-correcta: 0
-},
-{
-pregunta: "¿Qué es Firestore?",
-opciones: [
-"Una base de datos en la nube",
-"Un editor de código",
-"Un servidor web",
-"Un lenguaje"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué es una colección?",
-opciones: [
-"Un conjunto de documentos",
-"Una tabla HTML",
-"Un archivo JS",
-"Una variable"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué es un documento en Firestore?",
-opciones: [
-"Un registro de datos",
-"Un archivo físico",
-"Una función",
-"Una librería"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué ventaja tiene Firebase?",
-opciones: [
-"No requiere backend propio",
-"Es más lento",
-"Necesita PHP",
-"No guarda datos"
-],
-correcta: 0
-},
-{
-pregunta: "¿Dónde se almacenan los datos?",
-opciones: [
-"En la nube",
-"En la PC",
-"En XAMPP",
-"En el navegador"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué ocurre si no hay conexión a internet?",
-opciones: [
-"No se puede acceder a Firebase",
-"Funciona igual",
-"Se guarda en MySQL",
-"Se reinicia"
-],
-correcta: 0
+correcta: 1
 },
 
-// 🔹 CONFIGURACIÓN (11–20)
+// 🔹 RESPONSIVE DESIGN (16–35)
 
 {
-pregunta: "¿Qué contiene firebaseConfig?",
+pregunta: "¿Cuál es la función de media queries en CSS?",
 opciones: [
-"Datos de conexión a Firebase",
-"Consultas SQL",
-"Diseño HTML",
-"Estilos CSS"
+"Ejecutar JavaScript",
+"Aplicar estilos según el tamaño de pantalla",
+"Conectar a base de datos",
+"Optimizar imágenes"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué unidad es más adecuada para diseño flexible?",
+opciones: [
+"px",
+"cm",
+"%",
+"pt"
+],
+correcta: 2
+},
+{
+pregunta: "¿Qué ventaja tiene Flexbox en diseño móvil?",
+opciones: [
+"Permite diseño adaptable",
+"Reduce el uso de HTML",
+"Evita el uso de JS",
+"Optimiza base de datos"
 ],
 correcta: 0
 },
 {
-pregunta: "¿De dónde se obtiene firebaseConfig?",
+pregunta: "¿Qué ocurre si se usa width fijo en móvil?",
 opciones: [
-"Firebase Console",
-"XAMPP",
-"Visual Studio Code",
-"MySQL"
+"Se adapta mejor",
+"Puede romper el diseño",
+"No afecta",
+"Optimiza carga"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué propiedad mejora la adaptación de elementos?",
+opciones: [
+"display: flex",
+"float",
+"position absolute",
+"overflow hidden"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué pasa si firebaseConfig está mal?",
+pregunta: "¿Qué sucede al usar max-width en lugar de width?",
 opciones: [
-"No conecta a la base",
-"Funciona igual",
-"Se corrige solo",
-"Elimina datos"
+"Permite mayor flexibilidad",
+"Bloquea el diseño",
+"Reduce funcionalidad",
+"Elimina CSS"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué hace initializeApp()?",
+pregunta: "¿Qué indica un breakpoint?",
 opciones: [
-"Inicializa Firebase",
-"Elimina datos",
-"Crea tablas",
-"Busca registros"
+"Error del sistema",
+"Cambio de diseño según tamaño",
+"Falla de red",
+"Optimización de JS"
+],
+correcta: 1
+},
+{
+pregunta: "¿Por qué evitar tablas en diseño móvil?",
+opciones: [
+"Son difíciles de adaptar",
+"Son más rápidas",
+"Mejoran el rendimiento",
+"No afectan diseño"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué hace getFirestore()?",
+pregunta: "¿Qué mejora la legibilidad en móviles?",
 opciones: [
-"Obtiene la base de datos",
-"Cierra conexión",
-"Inserta datos",
-"Actualiza registros"
+"Texto pequeño",
+"Espaciado adecuado",
+"Colores aleatorios",
+"Uso de tablas"
 ],
-correcta: 0
-},
-{
-pregunta: "¿Qué error indica falta de permisos?",
-opciones: [
-"403",
-"200",
-"500",
-"100"
-],
-correcta: 0
-},
-{
-pregunta: "¿Dónde se configuran permisos?",
-opciones: [
-"En reglas de Firestore",
-"En HTML",
-"En CSS",
-"En XAMPP"
-],
-correcta: 0
-},
-{
-pregunta: "¿Para qué sirven las reglas?",
-opciones: [
-"Controlar acceso a datos",
-"Diseñar interfaz",
-"Crear variables",
-"Optimizar código"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué significa allow read, write: if true?",
-opciones: [
-"Acceso total",
-"Acceso restringido",
-"Solo lectura",
-"Solo escritura"
-],
-correcta: 0
-},
-{
-pregunta: "¿Por qué se usa modo prueba?",
-opciones: [
-"Para facilitar desarrollo",
-"Para bloquear acceso",
-"Para eliminar datos",
-"Para producción"
-],
-correcta: 0
+correcta: 1
 },
 
-// 🔹 CREATE (21–30)
+// 🔹 PHP DINÁMICO (36–55)
 
 {
-pregunta: "¿Qué hace addDoc()?",
+pregunta: "¿Qué caracteriza al contenido dinámico en PHP?",
 opciones: [
-"Agrega un documento",
-"Elimina datos",
-"Consulta datos",
-"Edita registros"
+"Se escribe directamente en HTML",
+"Se genera en tiempo de ejecución",
+"Se almacena en CSS",
+"Se ejecuta en el cliente"
+],
+correcta: 1
+},
+{
+pregunta: "¿Dónde se ejecuta PHP?",
+opciones: [
+"En el navegador",
+"En el servidor",
+"En el CSS",
+"En JavaScript"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué ventaja tiene usar arrays en PHP?",
+opciones: [
+"Permiten manejar múltiples datos",
+"Reducen CSS",
+"Eliminan HTML",
+"Evitan errores"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué representa collection(db, 'productos')?",
+pregunta: "¿Qué estructura permite iterar datos?",
 opciones: [
-"Colección de datos",
-"Tabla HTML",
-"Variable",
-"Archivo"
+"if",
+"foreach",
+"echo",
+"print"
 ],
-correcta: 0
+correcta: 1
 },
 {
-pregunta: "¿Por qué usar await?",
+pregunta: "¿Qué ocurre si los datos cambian en PHP?",
 opciones: [
-"Esperar resultado",
-"Reducir código",
-"Eliminar errores",
-"Cerrar conexión"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué pasa sin await?",
-opciones: [
-"Puede fallar la operación",
-"Funciona mejor",
+"Se actualiza la vista automáticamente",
 "No cambia nada",
-"Se elimina datos"
+"Se elimina el HTML",
+"Se reinicia servidor"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué se envía al crear?",
+pregunta: "¿Qué función cumple echo?",
 opciones: [
-"Objeto con datos",
-"HTML",
-"CSS",
-"SQL"
-],
-correcta: 0
-},
-{
-pregunta: "¿Por qué validar inputs?",
-opciones: [
-"Evitar datos vacíos",
-"Hacer lento sistema",
+"Mostrar datos",
 "Eliminar datos",
-"Diseñar interfaz"
+"Actualizar base",
+"Ejecutar CSS"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué pasa después de agregar?",
+pregunta: "¿Qué implica separar lógica y presentación?",
 opciones: [
-"Se actualiza tabla",
-"Se elimina registro",
-"Se reinicia app",
-"Se cierra conexión"
-],
-correcta: 0
-},
-{
-pregunta: "¿Por qué limpiar inputs?",
-opciones: [
-"Mejor experiencia",
-"Eliminar datos",
-"Cerrar conexión",
-"Optimizar código"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué tipo de dato es precio?",
-opciones: [
-"Número",
-"Booleano",
-"Array",
-"Objeto"
-],
-correcta: 0
-},
-{
-pregunta: "¿Se pueden agregar más campos?",
-opciones: [
-"Sí",
-"No",
-"Solo uno",
-"Solo texto"
+"Mejor organización",
+"Mayor confusión",
+"Menos funcionalidad",
+"Errores"
 ],
 correcta: 0
 },
 
-// 🔹 READ, UPDATE, DELETE + BÚSQUEDA (31–55)
+// 🔹 CASO DE USO Y ANÁLISIS (56–70)
 
-...Array.from({length: 25}, (_,i)=>({
-pregunta: `En Firebase, ¿cuál es la importancia de manejar correctamente operaciones CRUD número ${i+1}?`,
+{
+pregunta: "¿Qué describe mejor un caso de uso?",
 opciones: [
-"Ignorar datos",
-"Gestionar correctamente información",
-"Eliminar base de datos",
-"Reducir código"
+"Un diseño",
+"Una interacción usuario-sistema",
+"Un error",
+"Un archivo"
 ],
 correcta: 1
+},
+{
+pregunta: "¿Qué elemento es indispensable en un caso de uso?",
+opciones: [
+"Color",
+"Usuario",
+"CSS",
+"Servidor"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué representa el problema en el desarrollo?",
+opciones: [
+"El error del sistema",
+"La necesidad a resolver",
+"El diseño",
+"El código"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué valida que una app sea útil?",
+opciones: [
+"Su diseño",
+"Que resuelva un problema",
+"Su color",
+"Su tamaño"
+],
+correcta: 1
+},
+
+// 🔹 ANÁLISIS APLICADO (71–81)
+
+...Array.from({length: 11}, (_,i)=>({
+pregunta: `En el desarrollo de interfaces móviles, ¿por qué es importante validar la experiencia del usuario en distintos dispositivos? (${i+1})`,
+opciones: [
+"Para mejorar la usabilidad y accesibilidad",
+"Para reducir el código",
+"Para eliminar CSS",
+"Para evitar PHP"
+],
+correcta: 0
 }))
 
 ];
