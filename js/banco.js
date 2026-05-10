@@ -1,415 +1,568 @@
 window.banco = [
 
-/* 🔹 ENTORNO OPERATIVO (1–15) */
+/* 🔹 DESARROLLO DE APLICACIONES MÓVILES (1–15) */
 
 {
-pregunta: "¿Qué se entiende por entorno operativo en una aplicación web móvil?",
+pregunta: "¿Qué caracteriza a una aplicación móvil moderna?",
 opciones: [
-"El lenguaje de programación utilizado",
-"Las condiciones reales donde se usa la aplicación",
-"El servidor donde se aloja",
-"El diseño visual"
+"Uso de una sola pantalla",
+"Uso de múltiples vistas o pantallas",
+"Uso exclusivo de escritorio",
+"Uso sin navegación"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Cuál de los siguientes elementos forma parte del entorno operativo?",
+pregunta: "¿Qué representa una vista en una aplicación móvil?",
 opciones: [
-"Color del sitio",
-"Velocidad de conexión",
-"Nombre del archivo",
-"Tipografía"
+"Un servidor",
+"Una pantalla funcional",
+"Un archivo CSS",
+"Una imagen"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Por qué es importante considerar el entorno operativo al diseñar?",
+pregunta: "¿Qué suele mostrar una pantalla de listado?",
 opciones: [
-"Para hacer la app más bonita",
-"Porque influye en el comportamiento real del sistema",
-"Para reducir líneas de código",
-"Para eliminar CSS"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué limitación es típica en dispositivos móviles?",
-opciones: [
-"Pantallas grandes",
-"Recursos limitados",
-"Mayor potencia",
-"Mayor almacenamiento"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué implica diseñar considerando el contexto de uso?",
-opciones: [
-"Ignorar al usuario",
-"Adaptarse a cómo y dónde se usa la app",
-"Usar más código",
-"Eliminar HTML"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué sucede si no se considera el entorno operativo?",
-opciones: [
-"La app funciona igual",
-"La experiencia puede ser deficiente",
-"Se mejora el rendimiento",
-"No cambia nada"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué caracteriza el uso en móvil?",
-opciones: [
-"Uso largo y complejo",
-"Uso rápido y directo",
-"Uso técnico avanzado",
-"Uso sin interacción"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué recurso suele ser más limitado en móvil?",
-opciones: [
-"CPU",
-"Pantalla",
-"Ambos",
-"Ninguno"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué debe priorizar una app móvil?",
-opciones: [
-"Decoración",
-"Funcionalidad",
-"Animaciones",
-"Efectos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué afecta directamente la interacción del usuario?",
-opciones: [
-"Tamaño de botones",
-"Nombre del archivo",
-"Servidor",
-"Lenguaje"
+"Información resumida",
+"Configuración avanzada",
+"Código fuente",
+"Archivos del servidor"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué significa que una app sea usable?",
+pregunta: "¿Qué función tiene una pantalla de detalle?",
 opciones: [
-"Que tenga muchos colores",
-"Que sea fácil de usar",
-"Que tenga base de datos",
-"Que use PHP"
+"Mostrar información completa",
+"Eliminar CSS",
+"Reducir imágenes",
+"Compilar código"
 ],
-correcta: 1
+correcta: 0
+},
+{
+pregunta: "¿Qué permite una aplicación con múltiples pantallas?",
+opciones: [
+"Mejor organización",
+"Mayor confusión",
+"Más errores",
+"Menos funcionalidad"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe existir entre las pantallas?",
+opciones: [
+"Navegación funcional",
+"Animaciones obligatorias",
+"Archivos duplicados",
+"Más código"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué busca el diseño móvil?",
+opciones: [
+"Comodidad para el usuario",
+"Mayor complejidad",
+"Más ventanas",
+"Uso exclusivo de teclado"
+],
+correcta: 0
 },
 {
 pregunta: "¿Qué debe evitar una app móvil?",
 opciones: [
-"Procesos innecesarios",
+"Flujos confusos",
 "Botones",
 "Texto",
-"PHP"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué representa una mala adaptación al entorno?",
-opciones: [
-"Buena experiencia",
-"Mala usabilidad",
-"Mayor rendimiento",
-"Mejor diseño"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se debe considerar en interacción móvil?",
-opciones: [
-"Uso de mouse",
-"Interacción táctil",
-"Teclado físico",
-"Servidor"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué ocurre si una app no se adapta al dispositivo?",
-opciones: [
-"Se mejora la experiencia",
-"Se dificulta su uso",
-"No afecta",
-"Se optimiza sola"
-],
-correcta: 1
-},
-
-/* 🔹 RENDIMIENTO (16–30) */
-
-{
-pregunta: "¿Qué significa optimizar el rendimiento?",
-opciones: [
-"Aumentar el tamaño del sistema",
-"Reducir tiempos de carga",
-"Agregar más funciones",
-"Eliminar HTML"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué afecta negativamente la carga?",
-opciones: [
-"Imágenes pesadas",
-"Texto corto",
-"Botones",
-"Menú"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué sucede si una app tarda en cargar?",
-opciones: [
-"El usuario espera sin problema",
-"El usuario puede abandonarla",
-"Se mejora la experiencia",
-"No afecta"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué práctica mejora el rendimiento?",
-opciones: [
-"Reducir recursos",
-"Aumentar scripts",
-"Duplicar archivos",
-"Agregar imágenes grandes"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué indica mala optimización?",
-opciones: [
-"Carga rápida",
-"Lentitud",
-"Buen diseño",
-"Buen código"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué ayuda a mejorar la velocidad?",
-opciones: [
-"Optimizar imágenes",
-"Aumentar CSS",
-"Agregar más JS",
-"Duplicar HTML"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué se debe evitar en rendimiento?",
-opciones: [
-"Recursos innecesarios",
-"Botones",
-"Texto",
-"PHP"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué influye en el tiempo de carga?",
-opciones: [
-"Peso de archivos",
-"Color",
-"Fuente",
-"Texto"
+"Formularios"
 ],
 correcta: 0
 },
 {
 pregunta: "¿Qué mejora la experiencia del usuario?",
 opciones: [
-"Carga rápida",
-"Carga lenta",
+"Navegación clara",
+"Más pasos",
+"Pantallas complejas",
+"Texto excesivo"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe permitir una app móvil?",
+opciones: [
+"Interacción rápida",
+"Procesos lentos",
+"Uso complicado",
+"Menús ocultos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué se adapta al tamaño de pantalla?",
+opciones: [
+"Diseño responsive",
+"Servidor",
+"PHP",
+"Base de datos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe tener una vista móvil?",
+opciones: [
+"Información organizada",
 "Mucho texto",
-"Muchos clics"
+"Elementos pequeños",
+"Ventanas emergentes"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué significa eficiencia?",
+pregunta: "¿Qué representa una mala estructura móvil?",
 opciones: [
-"Uso adecuado de recursos",
-"Más código",
-"Más peso",
-"Más imágenes"
+"Desorden visual",
+"Mayor claridad",
+"Mejor navegación",
+"Más velocidad"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué sucede con archivos grandes?",
+pregunta: "¿Qué debe priorizarse en móvil?",
 opciones: [
-"Mejoran rendimiento",
-"Lo empeoran",
-"No afectan",
-"Se eliminan"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué reduce el tiempo de respuesta?",
-opciones: [
-"Optimización",
-"Más datos",
-"Más imágenes",
-"Más scripts"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué implica carga eficiente?",
-opciones: [
-"Rápida",
-"Lenta",
-"Pesada",
-"Compleja"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué mejora el rendimiento real?",
-opciones: [
-"Optimización",
+"Usabilidad",
 "Decoración",
-"Animación",
-"Color"
+"Efectos",
+"Animaciones"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué debe minimizarse?",
+pregunta: "¿Qué facilita el uso móvil?",
 opciones: [
-"Tamaño de recursos",
-"Texto",
-"Botones",
+"Interfaces simples",
+"Interfaces complejas",
+"Más ventanas",
+"Más clics"
+],
+correcta: 0
+},
+
+/* 🔹 NAVEGACIÓN ENTRE PANTALLAS (16–30) */
+
+{
+pregunta: "¿Qué permite cambiar entre vistas?",
+opciones: [
+"Navegación",
+"Servidor",
+"Imágenes",
 "Colores"
 ],
 correcta: 0
 },
-
-/* 🔹 NAVEGACIÓN (31–45) */
-
 {
-pregunta: "¿Qué caracteriza una buena navegación?",
+pregunta: "¿Qué elemento ayuda a regresar?",
 opciones: [
-"Compleja",
-"Clara y simple",
-"Larga",
-"Confusa"
+"Botón de regreso",
+"Animación",
+"Imagen",
+"Tipografía"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué ocurre si la navegación es confusa?",
+pregunta: "¿Qué debe ser un menú móvil?",
 opciones: [
-"El usuario mejora",
+"Claro y simple",
+"Grande y complejo",
+"Oculto",
+"Decorativo"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ocurre con navegación complicada?",
+opciones: [
 "El usuario se pierde",
-"No afecta",
-"Se optimiza"
+"Mejora el rendimiento",
+"Reduce errores",
+"No afecta"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué mejora la navegación?",
+pregunta: "¿Qué mejora el flujo de uso?",
 opciones: [
 "Menos pasos",
 "Más clics",
-"Más texto",
-"Más pantallas"
+"Más pantallas",
+"Más texto"
 ],
 correcta: 0
 },
 {
 pregunta: "¿Qué debe saber el usuario?",
 opciones: [
-"El código",
 "Dónde está y qué hacer",
-"El servidor",
-"El CSS"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué ayuda a la orientación?",
-opciones: [
-"Menú claro",
-"Animaciones",
-"Colores",
-"Texto largo"
+"Cómo funciona el servidor",
+"Cómo programar PHP",
+"Cómo funciona CSS"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué afecta la navegación?",
+pregunta: "¿Qué facilita la navegación?",
 opciones: [
-"Estructura",
-"Color",
-"Fuente",
-"Imagen"
+"Botones visibles",
+"Botones pequeños",
+"Texto largo",
+"Menús ocultos"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué mejora el flujo?",
+pregunta: "¿Qué debe evitarse en navegación?",
 opciones: [
-"Simplicidad",
-"Complejidad",
-"Cantidad de opciones",
-"Texto"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué evita confusión?",
-opciones: [
-"Claridad",
-"Cantidad",
-"Colores",
-"Animaciones"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué debe evitarse?",
-opciones: [
-"Flujos complicados",
+"Confusión",
 "Botones",
-"Texto",
-"PHP"
+"Links",
+"Pantallas"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué mejora experiencia?",
+pregunta: "¿Qué ayuda a conectar pantallas?",
 opciones: [
-"Navegación intuitiva",
-"Navegación compleja",
-"Mucho texto",
-"Muchas opciones"
+"Enlaces",
+"Colores",
+"Tipografías",
+"Imágenes"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué caracteriza una buena experiencia móvil?",
+opciones: [
+"Flujo intuitivo",
+"Complejidad",
+"Muchos pasos",
+"Mucho texto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué reduce errores del usuario?",
+opciones: [
+"Navegación clara",
+"Más opciones",
+"Más menús",
+"Más texto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe incluir una app móvil?",
+opciones: [
+"Accesos visibles",
+"Opciones ocultas",
+"Textos largos",
+"Botones pequeños"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la interacción?",
+opciones: [
+"Botones grandes",
+"Botones ocultos",
+"Menús complejos",
+"Mucho texto"
 ],
 correcta: 0
 },
 {
 pregunta: "¿Qué representa mala navegación?",
+opciones: [
+"Desorientación",
+"Claridad",
+"Orden",
+"Simplicidad"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe ofrecer una app móvil?",
+opciones: [
+"Flujo lógico",
+"Flujo complicado",
+"Más pantallas",
+"Más texto"
+],
+correcta: 0
+},
+
+/* 🔹 FORMULARIOS MÓVILES Y RESPONSIVE (31–45) */
+
+{
+pregunta: "¿Qué debe tener un formulario móvil?",
+opciones: [
+"Inputs grandes",
+"Texto pequeño",
+"Botones ocultos",
+"Muchos campos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora el uso táctil?",
+opciones: [
+"Botones amplios",
+"Botones pequeños",
+"Texto largo",
+"Menús complejos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué significa responsive?",
+opciones: [
+"Adaptable a distintos dispositivos",
+"Más pesado",
+"Más lento",
+"Uso exclusivo de escritorio"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué evita el diseño responsive?",
+opciones: [
+"Scroll horizontal",
+"Botones",
+"Texto",
+"Formularios"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ayuda a visualizar correctamente en móvil?",
+opciones: [
+"CSS responsive",
+"Más imágenes",
+"Más ventanas",
+"Más scripts"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la lectura en móvil?",
+opciones: [
+"Texto legible",
+"Texto pequeño",
+"Mucho texto",
+"Pantallas saturadas"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe evitar un formulario móvil?",
+opciones: [
+"Campos difíciles de usar",
+"Botones",
+"Inputs",
+"Texto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la captura de datos?",
+opciones: [
+"Espaciado adecuado",
+"Campos juntos",
+"Texto pequeño",
+"Botones ocultos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué se prueba en modo responsive?",
+opciones: [
+"Adaptación móvil",
+"Compilación",
+"Servidor",
+"Base de datos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ocurre si el diseño no es responsive?",
+opciones: [
+"La app se ve mal en móvil",
+"La app mejora",
+"No afecta",
+"Se optimiza"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ayuda a organizar elementos móviles?",
+opciones: [
+"Flexbox",
+"PHP",
+"MySQL",
+"Servidor"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la experiencia táctil?",
+opciones: [
+"Elementos visibles",
+"Elementos pequeños",
+"Texto excesivo",
+"Menús ocultos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe priorizar un formulario?",
+opciones: [
+"Facilidad de uso",
+"Complejidad",
+"Decoración",
+"Animación"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la accesibilidad?",
+opciones: [
+"Controles visibles",
+"Botones ocultos",
+"Texto pequeño",
+"Muchos menús"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe comprobarse en celular?",
+opciones: [
+"Visualización correcta",
+"Compilación",
+"PHP",
+"Servidor"
+],
+correcta: 0
+},
+
+/* 🔹 EXPERIENCIA DE USUARIO Y ANÁLISIS (46–60) */
+
+{
+pregunta: "¿Qué busca mejorar la experiencia de usuario?",
+opciones: [
+"Facilidad de uso",
+"Más complejidad",
+"Más ventanas",
+"Más código"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué representa una buena usabilidad?",
+opciones: [
+"Uso sencillo",
+"Uso complicado",
+"Muchos pasos",
+"Muchos menús"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe analizarse en una app móvil?",
+opciones: [
+"Funcionamiento real",
+"Solo colores",
+"Solo imágenes",
+"Solo texto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ayuda a mejorar la organización?",
+opciones: [
+"Pantallas separadas",
+"Texto excesivo",
+"Más ventanas",
+"Más scripts"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué representa una mejora real?",
+opciones: [
+"Beneficio al usuario",
+"Más animaciones",
+"Más colores",
+"Más imágenes"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la claridad?",
+opciones: [
+"Información organizada",
+"Pantallas saturadas",
+"Mucho texto",
+"Más ventanas"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué debe evitar una interfaz?",
+opciones: [
+"Desorden",
+"Botones",
+"Texto",
+"CSS"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ayuda a completar acciones rápidas?",
+opciones: [
+"Flujo simple",
+"Flujo complicado",
+"Más pasos",
+"Más pantallas"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora la interacción general?",
+opciones: [
+"Interfaces intuitivas",
+"Interfaces complejas",
+"Muchos clics",
+"Mucho texto"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué se busca al diseñar móvil?",
+opciones: [
+"Comodidad",
+"Complejidad",
+"Decoración",
+"Más efectos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué representa mala experiencia?",
 opciones: [
 "Confusión",
 "Claridad",
@@ -419,195 +572,42 @@ opciones: [
 correcta: 0
 },
 {
-pregunta: "¿Qué debe ser un menú?",
+pregunta: "¿Qué mejora el uso diario?",
 opciones: [
-"Simple",
-"Complejo",
-"Largo",
-"Oculto"
+"Rapidez",
+"Complejidad",
+"Más clics",
+"Más pantallas"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué facilita uso?",
+pregunta: "¿Qué debe facilitar una app?",
 opciones: [
-"Accesos rápidos",
-"Más pasos",
-"Más pantallas",
+"La interacción",
+"Los errores",
+"La confusión",
+"Los pasos innecesarios"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué busca el análisis del sistema?",
+opciones: [
+"Detectar mejoras",
+"Agregar errores",
+"Duplicar código",
+"Eliminar funciones"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué define una aplicación móvil funcional?",
+opciones: [
+"Buen flujo y usabilidad",
+"Más colores",
+"Más animaciones",
 "Más texto"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué mejora interacción?",
-opciones: [
-"Botones visibles",
-"Botones pequeños",
-"Texto largo",
-"Menú oculto"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué reduce errores?",
-opciones: [
-"Flujo claro",
-"Flujo complejo",
-"Más opciones",
-"Más texto"
-],
-correcta: 0
-},
-
-/* 🔹 CONECTIVIDAD, ALMACENAMIENTO Y ANÁLISIS (46–60) */
-
-{
-pregunta: "¿Qué problema común existe en conectividad móvil?",
-opciones: [
-"Conexión lenta",
-"Pantalla grande",
-"Más memoria",
-"Más CPU"
-],
-correcta: 0
-},
-{
-pregunta: "¿Por qué considerar la conectividad?",
-opciones: [
-"Porque no siempre hay buena red",
-"Para mejorar colores",
-"Para eliminar CSS",
-"Para usar PHP"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué ocurre con mala conexión?",
-opciones: [
-"Falla la app",
-"Mejora rendimiento",
-"No afecta",
-"Se optimiza"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué mejora la experiencia en red lenta?",
-opciones: [
-"Reducir datos",
-"Aumentar imágenes",
-"Agregar scripts",
-"Duplicar contenido"
-],
-correcta: 0
-},
-{
-pregunta: "¿Para qué sirven las sesiones?",
-opciones: [
-"Guardar datos del usuario",
-"Eliminar datos",
-"Mostrar CSS",
-"Optimizar imágenes"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué ventaja tienen las sesiones?",
-opciones: [
-"Persistencia de datos",
-"Eliminar navegación",
-"Reducir HTML",
-"Evitar errores"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué ocurre sin almacenamiento?",
-opciones: [
-"Se pierde información",
-"Mejora rendimiento",
-"No afecta",
-"Se elimina PHP"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué implica analizar una app?",
-opciones: [
-"Evaluar funcionamiento real",
-"Solo verla",
-"Eliminar código",
-"Compilar"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué busca una mejora?",
-opciones: [
-"Mejorar uso",
-"Agregar código",
-"Eliminar CSS",
-"Cambiar colores"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué define una mejora real?",
-opciones: [
-"Impacto en experiencia",
-"Color",
-"Texto",
-"Animación"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué debe justificar una mejora?",
-opciones: [
-"Beneficio al usuario",
-"Color",
-"Diseño",
-"Texto"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué evalúa el análisis?",
-opciones: [
-"Uso real",
-"Código",
-"Color",
-"Servidor"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué indica una buena mejora?",
-opciones: [
-"Mejor experiencia",
-"Más código",
-"Más peso",
-"Más animación"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué se busca al optimizar?",
-opciones: [
-"Eficiencia",
-"Decoración",
-"Animación",
-"Color"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué mejora la app?",
-opciones: [
-"Optimización real",
-"Color",
-"Animación",
-"Texto"
 ],
 correcta: 0
 }
